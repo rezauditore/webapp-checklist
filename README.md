@@ -24,11 +24,14 @@ The repository is organized into vulnerability categories for easy navigation:
 
 ---
 
+## Profiles
+- Medium: https://medium.com/@rezauditore
+- X: https://x.com/rezauditore
+
+---
+
 ## Get Involved!
 
 - **Star the repository** 🌟 to show your support <3
-
-Medium: https://medium.com/@rezauditore
-X: https://x.com/rezauditore
 
 Together, we can build more secure web applications! Happy Hacking :]
