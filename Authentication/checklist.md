@@ -1,4 +1,4 @@
-Authentication Checklist
+### **Authentication Checklist**
 
 [+] Focuses on common vulnerabilities related to authentication mechanisms.
 
@@ -104,6 +104,41 @@ Similarly, these terms are used in computer systems, where traditionally under *
 
 ---
 
+### **Common Vulnerabilities and Implementation errors of** Password Authentication
+
+Password authentication is not considered a very reliable way, as the password can often be selected, and users tend to use simple and identical passwords in different systems, or write them on piece of paper.
+
+If the attacker was able to find out the password, the user often does not know about it. In addition, application developers can make a number of conceptual errors that simplify the hacking of accounts.
+
+**list** of the most **common vulnerabilities** in case of **using** **password** **authentication**:
+
+1 — The `web application` allows users to create simple passwords.
+
+2 — The `web application` is not protected from the possibility of double passwords (brute-force attacks).
+
+3 — The web application itself generates and distributes passwords to users, but does not require a password change after the first login (i.e. the current password is recorded somewhere).
+
+4 — The `web application` allows passwords to be transmitted over an unprotected HTTP connection or in a URL string. 
+
+5 — The `web application` does not use safe hash functions to store user passwords.
+
+6 — The `web application` does not provide users with the ability to change the password or does not notify users about changing their passwords.
+
+7 — The `web application` uses a vulnerable password recovery feature that can be used to obtain unauthorized access to other accounts.
+
+8 — The `web application` does not require repeated authentication of the user for important actions: change of password, changes in the delivery address of goods, etc.
+
+9 — The `web application` creates session tokens in such a way that they can be selected or predicted for other users.
+
+10 — The `web application` allows the transmission of session tokens via an unsecured HTTP connection, or in the URL string.
+
+11 — The `web application` is vulnerable to session fixation attacks (t. E. does not replace session token when the user’s anonymous session is switched to an authenticized session).
+
+12 — The `web application` does not install **`HtpOnly`** and Secure flags for browser cookies containing session tokens.
+
+13 — The **`web application`** does not **destroy** the **user's sessions** after a short period of inactivity or does not provide a function of exiting the authentication session.
+
+---
   
 ## Additional Resources
 - [OWASP Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
