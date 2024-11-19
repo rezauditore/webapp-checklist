@@ -2,7 +2,8 @@
 
 [+] Focuses on common vulnerabilities related to authentication mechanisms.
 [+] Focuses on common Vulnerabilities and Implementation errors of Password Authentication.
-[+] Medium: https://medium.com/@rezauditore
+
+Medium: https://medium.com/@rezauditore
 
 ### **Terminology**
 
@@ -138,7 +139,7 @@ If the attacker was able to find out the password, the user often does not know 
 
 12 — The `web application` does not install **`HtpOnly`** and Secure flags for browser cookies containing session tokens.
 
-13 — The **`web application`** does not **destroy** the **user's sessions** after a short period of inactivity or does not provide a function of exiting the authentication session.
+13 — The `web application` does not **destroy** the **user's sessions** after a short period of inactivity or does not provide a function of exiting the authentication session.
 
 ---
   
