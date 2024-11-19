@@ -1,6 +1,8 @@
 ### **Authentication Checklist**
 
 [+] Focuses on common vulnerabilities related to authentication mechanisms.
+[+] Focuses on common Vulnerabilities and Implementation errors of Password Authentication.
+[+] Medium: https://medium.com/@rezauditore
 
 ### **Terminology**
 
