@@ -147,3 +147,5 @@ If the attacker was able to find out the password, the user often does not know 
 ## Additional Resources
 - [OWASP Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 - [NIST Digital Identity Guidelines](https://pages.nist.gov/800-63-3/)
+- [HackTricks web-vulnerabilities-methodology] (https://book.hacktricks.xyz/pentesting-web/web-vulnerabilities-methodology)
+- [PortSwigger `hidden-oauth-attack-vectors`] (https://portswigger.net/research/hidden-oauth-attack-vectors)
