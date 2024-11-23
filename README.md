@@ -9,7 +9,7 @@ This repo provides comprehensive checklists to help penetration testers and deve
 
 The repository is organized into vulnerability categories for easy navigation:
 
-- `Authentication/`: Authentication-related vulnerabilities (e.g., CAPTCHA bypass, weak passwords).
+- `https://github.com/rezauditore/webapp-checklist/blob/main/Authentication/checklist.md`: Authentication-related vulnerabilities (e.g., CAPTCHA bypass, weak passwords).
 - `Authorization/`: Authorization issues (coming soon).
 - `Input-validation/`: Input validation vulnerabilities (coming soon).
 
