@@ -1,4 +1,4 @@
-# webapp-checklist
+# Webapp-Checklist
 This repo focuses on common vulnerabilities related to Web Application Security.
 
 This repo provides comprehensive checklists to help penetration testers and developers identify and mitigate common web application vulnerabilities.
